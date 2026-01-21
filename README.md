@@ -2,6 +2,8 @@
 
 A modern, playful icebreaker game built with Astro and React. Tic2Talk puts a unique twist on the classic Tic Tac Toe - each player can only have 3 pieces on the board at a time, with the oldest piece being automatically removed when placing a fourth. Perfect as a fun conversation starter between two people!
 
+![Tic2Talk Preview](../.github/859shots_so.png)
+
 ## ✨ Features
 
 ### 🎯 Core Game Mechanics
