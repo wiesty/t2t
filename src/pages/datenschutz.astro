@@ -1,0 +1,158 @@
+---
+import '../styles/globals.css';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Privacy Policy for Tic2Talk" />
+		<meta name="robots" content="noindex, nofollow" />
+		<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Privacy Policy - Tic2Talk</title>
+		<script is:inline>
+			const theme = localStorage.getItem('theme');
+			if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+				document.documentElement.classList.add('dark');
+			}
+		</script>
+	</head>
+	<body class="bg-background text-foreground min-h-screen">
+		<div class="container max-w-4xl mx-auto px-4 py-8 pb-20">
+			<!-- Header -->
+			<div class="mb-8">
+				   <a 
+					   href="/" 
+					   class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors group"
+				   >
+					   <svg class="w-4 h-4 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+					   </svg>
+					   Back to App
+				   </a>
+			</div>
+
+			<!-- Main Content Card -->
+			<div class="bg-card border border-border rounded-lg shadow-lg p-8 md:p-12">
+				   <h1 class="text-3xl md:text-4xl font-bold mb-2 text-foreground">
+					   Privacy Policy
+				   </h1>
+				   <p class="text-sm text-muted-foreground mb-8">Last updated: January 2026</p>
+
+				<div class="prose prose-sm md:prose-base dark:prose-invert max-w-none">
+					<div class="space-y-6">
+						<section>
+							<h2 class="text-xl font-semibold text-foreground mb-3 flex items-center gap-2">
+								<span class="text-primary">🔒</span>
+								Privacy Overview
+							</h2>
+							<p class="text-muted-foreground leading-relaxed">
+								This app stores all data exclusively locally on your device. No personal data is transmitted to or stored on external servers (except log files see below).
+							</p>
+						</section>
+
+						<section class="bg-primary/5 border-l-4 border-primary p-4 rounded">						<h3 class="text-lg font-semibold text-foreground mb-2 flex items-center gap-2">
+							<span>📂</span>
+							Open Source & Transparency
+						</h3>
+						<p class="text-muted-foreground leading-relaxed">
+							This app is fully open source. The complete source code is publicly available on GitHub at 
+							<a href="https://github.com/wiesty/t2t" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline font-medium">
+								github.com/wiesty/t2t
+							</a>. 
+							You can inspect the code to verify how your data is handled and that no tracking or external data transmission occurs.
+						</p>
+					</section>
+
+					<section class="bg-primary/5 border-l-4 border-primary p-4 rounded">							<h3 class="text-lg font-semibold text-foreground mb-2">Local Data Storage</h3>
+							<p class="text-muted-foreground leading-relaxed">
+								Your game settings and progress are stored exclusively in your browser (localStorage). This data never leaves your device and can be deleted at any time by clearing your browser cache.
+							</p>
+						</section>
+
+						<section>
+							<h2 class="text-xl font-semibold text-foreground mb-3 flex items-center gap-2">
+								<span class="text-primary">⚙️</span>
+								Service Worker & Offline Mode
+							</h2>
+							<p class="text-muted-foreground leading-relaxed mb-3">
+								This app uses a Service Worker for offline functionality. The Service Worker stores website content locally on your device to make the app usable even without an internet connection.
+							</p>
+							<div class="bg-muted/50 p-3 rounded text-sm">
+								<p class="font-medium text-foreground mb-1">Stored Data:</p>
+								<ul class="list-disc list-inside text-muted-foreground space-y-1">
+									<li>App files (HTML, CSS, JavaScript)</li>
+									<li>Icons and graphics</li>
+									<li>No personal data</li>
+								</ul>
+							</div>
+						</section>
+
+						<section>
+							<h2 class="text-xl font-semibold text-foreground mb-3 flex items-center gap-2">
+								<span class="text-primary">🌐</span>
+								Hosting & Server Log Files
+							</h2>
+							<p class="text-muted-foreground leading-relaxed mb-3">
+								This website is hosted by Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Germany. All data is processed and stored exclusively on servers located in Germany or the European Union. We have concluded a Data Processing Agreement (DPA) with Hetzner in accordance with Art. 28 GDPR.
+							</p>
+							<p class="text-muted-foreground leading-relaxed mb-3">
+								When you visit this website, the following information is automatically collected and stored in server log files:
+							</p>
+							<div class="grid md:grid-cols-2 gap-2">
+								<div class="bg-muted/30 p-3 rounded text-sm text-muted-foreground">
+									• Browser type and version
+								</div>
+								<div class="bg-muted/30 p-3 rounded text-sm text-muted-foreground">
+									• Operating system
+								</div>
+								<div class="bg-muted/30 p-3 rounded text-sm text-muted-foreground">
+									• IP address (anonymized where possible)
+								</div>
+								<div class="bg-muted/30 p-3 rounded text-sm text-muted-foreground">
+									• Date and time of access
+								</div>
+								<div class="bg-muted/30 p-3 rounded text-sm text-muted-foreground">
+									• Referrer URL
+								</div>
+							</div>
+							<p class="text-muted-foreground text-sm mt-3">
+								This data is collected for technical reasons to ensure the stability and security of the website (Art. 6(1)(f) GDPR). The data is not merged with other data sources and is deleted automatically after 30 days unless required for evidence in case of abuse.
+							</p>
+						</section>
+
+						<section>
+							<h2 class="text-xl font-semibold text-foreground mb-3 flex items-center gap-2">
+								<span class="text-primary">🔐</span>
+								SSL/TLS Encryption
+							</h2>
+							<p class="text-muted-foreground leading-relaxed">
+								For security reasons and to protect the transmission of confidential content, this website uses SSL/TLS encryption. You can recognize an encrypted connection by the lock symbol in your browser's address bar and the "https://" prefix.
+							</p>
+						</section>
+
+
+						<section class="bg-muted/20 border border-border p-6 rounded-lg">
+							<h3 class="text-lg font-semibold text-foreground mb-2">Contact & Responsible Entity</h3>
+							<p class="text-muted-foreground">
+								The responsible entity for data processing on this website can be found in the 
+								<a href="https://wiesty.de/impressum" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+									legal notice
+								</a>.
+								For any questions or requests regarding data protection, you can contact us at <a href="mailto:b@wiesty.de" class="text-primary hover:underline">b@wiesty.de</a>.
+							</p>
+						</section>
+
+						<section class="bg-muted/10 border border-dashed border-border p-4 rounded">
+							<h3 class="text-lg font-semibold text-foreground mb-2">Changes to this Privacy Policy</h3>
+							<p class="text-muted-foreground">
+								We reserve the right to update this Privacy Policy to comply with current legal requirements or to reflect changes to our services. The current version always applies.
+							</p>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

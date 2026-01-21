@@ -1,0 +1,5 @@
+# Robots.txt für Tic2Talk
+User-agent: *
+Allow: /
+
+Sitemap: https://t2t.app/sitemap.xml
